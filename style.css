@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.orange-color {
+    color: orangered;
+}
+
+.flexible-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lists {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.hireMe-Btn {
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+}
