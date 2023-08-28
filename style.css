@@ -3,29 +3,47 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.nav-title {
+
+    font-size: 45px;
+    font-weight: 800;
+}
+
 .orange-color {
-    color: orangered;
+    color: #FD6E0A;
 }
 
-.flexible-header {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
-.lists {
-    display: flex;
-    gap: 30px;
+nav li {
     list-style: none;
-    align-items: center;
+    margin-right: 50px;
 }
 
-.hireMe-Btn {
-    padding: 18px 35px;
-    font-size: 20px;
-    font-weight: 700;
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+
+.btn-primary {
+
+    background-color: #FD6E0A;
+    border-radius: 5px;
     border: none;
-    border-radius: 10px;
-    background-color: orangered;
     color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px 35px;
+
 }
