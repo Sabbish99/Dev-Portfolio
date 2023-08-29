@@ -193,6 +193,26 @@ nav a {
 
 /*-----------------------------
 ---------------------
--------------------- login page-------------------
+-------------------- login page// footer-------------------
 -------------------
 ------------ */
+footer {}
+
+.footer-div {
+    display: flex;
+    border: 3px solid red;
+
+    align-items: center;
+    padding: 20px;
+    margin: 0px 230px;
+}
+
+.footer-left-div {
+    border: 2px solid green;
+    width: 50%;
+}
+
+.footer-right-div {
+    border: 2px solid rgb(202, 82, 13);
+    width: 50%;
+}
